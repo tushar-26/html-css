@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body style=" height: 3000px;">
+        <div class="rightside">right sidebar</div>
+          <div class="overlay">
+             <div class="model">
+            <div class="title">Model Title</div>
+            <div class="content">This is a model</div>
+            
+                <button>
+                    close
+                </button>
+            </div>
+        </div>
+
+
+        <style>
+            .rightside{
+               background-color: green;
+               color: white;
+               position: fixed;
+               right: 0;
+               top: 0;
+               bottom: 0;
+               width: 100px;
+
+            }
+            .overlay{
+                background-color: rgba(0, 0, 0, 0.5);
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 28px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .model{
+                background-color: white;
+                width: 300px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 5px;
+            }
+            .title{
+                font-family: arial;
+                font-weight: bold;
+                font-size: 24px;
+                margin-bottom: 12px;
+            }
+            .content{
+                font-family: arial;
+                padding-bottom: 12px;
+            }
+        </style>
+    </body>
+
+</html>

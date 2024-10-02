@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img class="dp"src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=600">
+        </div>
+        <div class="info">
+            <div class="header">
+            <div class="name">supersimple.dev</div>
+            <div class="handle">@SuperSimpleDev</div>
+            </div>
+            <div class="caption">What is backend web development? A complete overview. New video is up!
+            </div>
+            <div class="yt">
+                <div class="thumb"></div>
+                <div class="vid-info">
+                 <div class="youtube">youtube.com</div> 
+                 <div class="backend">Backend web development - a complete overview (2021)</div> 
+                </div> 
+                </div>
+            </div>
+    </div>
+    <style>
+        div{
+            font-family: arial;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            width: 420px;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        .profile{
+            margin-right: 10px;
+        }
+       .dp{
+        width: 60px;
+        height: 60px;
+        border-radius: 40px;
+        object-fit: cover;
+       }
+       .info{
+        flex: 1;
+       }
+       .header{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;
+       }
+       .name{
+        font-weight: bold;
+        margin-right: 5px;
+       }
+       .handle{
+        color: rgba(111,111,111);
+       }
+       .caption{
+        line-height: 20px;
+        margin-bottom: 15px;
+       }
+       .yt{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(200, 200, 200);
+        border-radius: 15px;
+        overflow: hidden;
+       }
+       .thumb{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(220,220,220);
+        margin-right: 10px;
+       }
+       .yt-info{
+        flex: 1;
+       }
+       .youtube {
+        color: rgb(111, 111, 111);
+        margin-bottom: 3px;
+         }
+       .backend{
+        line-height: 22px;
+           }
+    </style>
+</body>
+</html>

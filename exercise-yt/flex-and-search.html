@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>flexing</title>
+        <link rel="stylesheet" href="";>
+    </head>
+    <body>
+        <div style="
+            display: flex;
+            column-gap: 1px;
+            justify-content: center;
+            justify-content: space-between;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+            width: 700px;
+            text-align: center;
+            margin-bottom: 30px;            ">
+            <div style="background-color: aqua; flex: 1;">flex 1<p>hello</p></div>
+            <div style="background-color: blueviolet; flex: 1; padding-top: 10px;">flex 2</div>
+            <div style="background-color: aqua; flex: 1; padding-top: 20px;">flex 1</div>
+            <div style="background-color: blueviolet; flex: 1; padding-top: 30px;">flex 2</div>
+            <div style="background-color: aqua; flex: 1; padding-top: 40px;">flex 1</div>
+            <div style="background-color: blueviolet; flex: 1; padding-top: 50px;">flex 2</div>
+        </div>
+        <div class="contain">
+        <div class="flexbox">
+       <div>Home</div>
+       <p>a</p>
+       <div class="rec">14</div>
+       </div>
+       <div class="flexbox">
+       <div>Notification</div>
+       <p>a</p>
+       <div class="rec">3</div>
+    </div>
+       <div class="flexbox">
+       <div>Messages</div>
+       <p>a</p>
+       <div class="rec">5</div>
+       </div>
+        </div>
+
+       <style>
+        .flexbox{
+            display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+        }
+        .contain{
+            width: 300px;
+            border-width: 1px;
+        border-style: solid;
+      border-color: rgb(200, 200, 200);
+       border-radius: 6px;
+        }
+        .rec{
+            background-color: rgb(49, 109, 245);
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+        }
+       </style>
+
+       <div class="header">
+        <div class="home">Home
+        </div>
+        <div>
+            <input type="text" class="search" placeholder="Search">
+        </div>
+        <div>
+            <button class="button1">Download</button>
+        </div>
+       </div>
+
+       <style>
+        .header{
+            display: flex;
+            flex-direction: row;
+            border-width: 1px;
+            height: 60px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: blueviolet;
+            margin-top: 30px;
+            padding-left: 15px;
+            padding-right: 15px;
+
+        }
+        .header:hover{
+            transition: backgroud-image 0.15s;
+            box-shadow: 0 0 30px rgb(247, 24, 61);
+            background-image: url(https://img.freepik.com/free-photo/golden-frame-blue-background_53876-92990.jpg?size=626&ext=jpg&ga=GA1.1.150156607.1720871834&semt=sph);
+            
+        }
+        .home{
+            font-family: arial;
+            font-weight: bold;
+            color: aliceblue;
+            
+        
+        }
+        .search{
+          width: 500px;
+            border: none;
+           margin-top: 12px;
+               margin-bottom: 12px;
+           height: 30px;
+             border-radius: 15px;
+            padding-left: 20px;
+            transition: box-shadow 0.15s;       
+                  
+        }
+        .search:hover{
+           
+           box-shadow: 0 0 30px red;
+        }
+        .button1{
+            font-size: 20px;
+             color: white;
+             background-color: blueviolet;
+             border: solid;
+             border-color: white;
+             border-width: 1px;
+             border-radius: 3px;
+             padding-top: 7px;
+             padding-bottom: 7px;
+             padding-left: 15px;
+             padding-right: 15px;
+             font-family: arial;
+        }
+        .button1:hover{
+             padding: 50px;
+             transition: 0.15s;
+             opacity: 0.5;
+             background-color: rgb(166, 220, 220);
+             color: red;
+             font-size: larger;
+             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+             font-style: italic;
+             font-weight: bold;
+
+        }
+
+        
+       </style>
+    </body>

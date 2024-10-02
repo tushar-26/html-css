@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="height: 3000px;">
+    <div class="header">
+        <div class="left">
+            <div class="profile">
+                <img class="dp"src="https://scontent.famd6-1.fna.fbcdn.net/v/t39.30808-1/300004659_597244325237590_3064194559191035962_n.jpg?stp=dst-jpg_p200x200&_nc_cat=103&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=4MB_YP6uU_kQ7kNvgHajy4g&_nc_ht=scontent.famd6-1.fna&oh=00_AYDHQwdF8OZnUwuG4TlBt5vgfiOs0IVgSwteAsuLzulz1A&oe=66A67B27">
+            </div>
+            <div class="name">
+              Oliver Cat
+            </div>
+        </div>
+        <div class="right">
+            <button class="add">Add Friend</button>
+            <button class="msg">Message</button>
+        </div>
+    </div>
+
+    <style>
+        .header{
+            display: inline-block;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: start;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin-top: 10px;
+            
+           
+        } 
+        .left{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 100px;
+        }
+        .profile{
+               padding-right: 10px;
+             
+        }
+        .dp{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+        .name{
+            font-weight: bold;
+            font-family: arial;
+        }
+        .right{
+            margin-right: 100px;
+            
+        }
+        .add{
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: rgb(0, 132, 255);
+            font-weight: bold;
+            font-family: arial;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .msg{
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: rgb(233, 228, 228);
+            font-family: arial;
+            font-weight: bold;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            margin-left: 3px;
+        }
+    </style>
+</body>
+</html>

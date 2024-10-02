@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute</title>
+</head>
+<body style="height: 1000px">
+    <div class="box">
+    <div class="close-button">X</div>
+    <div class="time">0:29</div>
+     </div>
+    <style>
+       .close-button {
+         background-color: black;
+         color: white;
+         position: absolute;
+         top: -20px;
+         left: -20px;
+         font-family: Arial;
+         font-size: 20px;
+         width: 45px;
+         height: 45px;
+         border-radius: 25px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+}
+        
+        .close-button:hover{
+            opacity: 0.6;
+
+        }
+        .close-button:active{
+           opacity: 0.0;
+        }
+        .box{
+            position: fixed;
+            width: 320px;
+            height: 180px;
+            background-color: gray;
+            bottom: 20px;
+            right: 20px;
+        }
+        .time{
+            position: absolute;
+            bottom: 7px;
+            right: 7px;
+            font-family: arial;
+            font-weight: 500;
+            font-size: 12px;
+            background-color: black;
+            color: white;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 6px;
+            padding-right: 6px;
+        }
+    </style>
+</body>
+</html>

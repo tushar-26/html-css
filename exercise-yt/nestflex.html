@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nested</title>
+</head>
+<body>
+    <div class="header">
+        <div class="div1">
+        <p class="item">item1</p>
+    </div>
+        <div style="background-color: lightblue; width: 200px;"></div>
+    </div>
+    <style>
+        .div1{
+            background-color: lightpink; 
+            width: 100px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;      
+        }
+        .item{
+            font-family: roboto;
+            color: white;
+            background-color: black;
+    
+        }
+        
+
+        .header{
+            display: flex;
+            flex-direction: row;
+            height: 40px;
+            margin-bottom: 40px;
+        }
+    </style>
+    <div class="header1">
+        <div style="background-color: lightpink; width: 100px;"></div>
+        <div class="div2">
+            <div style="text-align: center;">row1</div>
+            <div class="row2">
+            <div class="item">row2</div>
+            <div class="item">row2</div>     
+        </div>
+        </div>
+    </div>
+    <style>
+        .header1{
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+        }
+        .div2{
+            background-color: lightblue;
+            width: 200px;
+        }
+        .row2 {
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+} 
+
+        .item{
+           background-color: black;
+           color: white;
+}
+    </style>
+
+
+<div class="box2">
+    <div class="names">
+        <lable>tushar</lable>
+        <lable>harsh</lable>
+        <lable>reibf</lable>
+    </div>
+    <div class="surname">
+        <lable>savdiya</lable>
+        <lable>dobriyal</lable>
+        <lable>vneoovf/lable>
+    </div>
+    <div class="age">
+        <lable>19</lable>
+        <lable>8</lable>
+        <lable>21</lable>
+    </div>
+
+    <style>
+        .box2{
+            display: flex;
+            flex-direction: row;
+            border: solid 1px black;
+            height: 150px;
+            justify-content: space-between;
+            align-items: center;
+        
+            
+            
+        }
+        .names{
+            display: flex;
+            flex-direction: column;
+            border: solid 2px red;
+            height: 100px;
+            justify-content: space-between;
+            
+        }
+        .surname{
+            display: flex;
+            flex-direction: column;
+            border: solid pink 2px;
+            height: 200px;
+            justify-content: end;
+        }
+        .age{
+            display: flex;
+            flex-direction: column;
+            border: skyblue 2px solid;
+            height: 300px;
+            justify-items: start;
+        }
+    </style>
+</div>
+</body>
+</html>
