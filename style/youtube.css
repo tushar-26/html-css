@@ -90,24 +90,6 @@ body{
 
 }
 
-@media (max-width: 750px) {
-    .video-grid{
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 751px) and (max-width: 999px) {
-    .video-grid{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-
-@media (min-width: 1000px) {
-    .video-grid{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
 
 /*header css */
 .header{
@@ -165,13 +147,13 @@ body{
     font-size: 16px;
 }
 .search{
-    height: 40px;
+    height: 39px;
     width: 66px;
     background-color: rgb(245, 244, 244);
     border-width: 1px;
     border-style: solid;
     border-color: rgb(197, 197, 197);
-    margin-left: -1px;
+    margin-left: -2px;
     margin-right: 10px;
 }
 
@@ -309,6 +291,26 @@ body{
 .sidebar-link div{
     font-size: 10px;
     font-family: roboto, arial;
+}
+
+
+@media (max-width: 750px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 
