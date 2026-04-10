@@ -1,98 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>grid practise</title>
-</head>
-<body style="padding-bottom: 1000px;">
-    <div style="
-    display: inline-block;
+  </head>
+  <body style="padding-bottom: 1000px">
+    <div
+      style="
+        display: inline-block;
         display: grid;
         grid-template-columns: 100px 100px;
-        ">
-        <div style="background-color: lightblue;">div 1</div>
-        <div style="background-color: lightpink;">div 2<p>text</p></div>
+      "
+    >
+      <div style="background-color: rgb(230, 173, 204)">div 1</div>
+      <div style="background-color: lightpink">
+        div 2
+        <p>text</p>
+      </div>
     </div>
 
-    <div style="
-        
+    <div
+      style="
         margin-top: 30px;
         display: grid;
         grid-template-columns: 100px 100px 200px 400px;
-        ">
-        <div style="background-color: lightblue;">div 1</div>
-        <div style="background-color: lightpink;">div 2<p>text</p></div>
-        <div style="background-color: lightblue;">div 3</div>
-        <div style="background-color: lightpink;">div 2</div>
-        <div style="background-color: lightblue;">div 3</div>
-        <div style="background-color: lightpink;">div 2</div>   
-
+      "
+    >
+      <div style="background-color: lightblue">div 1</div>
+      <div style="background-color: lightpink">
+        div 2
+        <p>text</p>
+      </div>
+      <div style="background-color: lightblue">div 3</div>
+      <div style="background-color: lightpink">div 2</div>
+      <div style="background-color: lightblue">div 3</div>
+      <div style="background-color: lightpink">div 2</div>
     </div>
 
-    <div style="
-    
-        margin-top: 30px;
-        display: grid;
-        grid-template-columns: 100px 1fr;
-        ">
-        <div style="background-color: lightblue;">div 1</div>
-        <div style="background-color: lightpink;">1fr</div>
+    <div
+      style="margin-top: 30px; display: grid; grid-template-columns: 100px 1fr"
+    >
+      <div style="background-color: lightblue">div 1</div>
+      <div style="background-color: lightpink">1fr</div>
     </div>
 
-    <div style="
+    <div
+      style="
         display: inline-block;
         margin-top: 30px;
         display: grid;
         grid-template-columns: 100px 1fr 2fr;
-        ">
-        <div style="background-color: lightblue;">div 1</div>
-        <div style="background-color: lightpink;">1fr</div>
-        <div style="background-color: lightblue;">2fr</div>          
+      "
+    >
+      <div style="background-color: lightblue">div 1</div>
+      <div style="background-color: lightpink">1fr</div>
+      <div style="background-color: lightblue">2fr</div>
     </div>
 
-    <div style="
-    margin-top: 30px;
-    margin-bottom: 15px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 20px;
-    row-gap: 20px;
-    ">
-    <div style="background-color: lightblue; height: 200px;">1fr</div>                            
-    <div style="background-color: lightpink; height: 200px;">1fr</div>
-    <div style="background-color: lightblue; height: 200px;">2fr</div> 
-    <div style="background-color: lightpink; height: 200px;">1fr</div>
-    <div style="background-color: lightblue; height: 200px;">1fr</div>
-    <div style="background-color: lightpink; height: 200px;">2fr</div>          
-</div>
-     <div class="grids">
-        <div class="box">hey</div>
-        <div class="box">hey</div>
-        <div class="box">hey</div>
-        <div class="box">hey</div>
-        <div class="box">hey</div>
-        <div class="box">hey</div>
-        <div class="box">hey</div>
-        <div class="box">hey</div>
-        <div class="box">hey</div>
-        <div class="box">hey</div>
-        <div class="box">hey</div>
-        <div class="box">hey</div>
-     </div>
-     <style>
-         .grids{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 10px;
-            row-gap: 10px;
-            text-align: center;
+    <div
+      style="
+        margin-top: 30px;
+        margin-bottom: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+      "
+    >
+      <div style="background-color: lightblue; height: 200px">1fr</div>
+      <div style="background-color: lightpink; height: 200px">1fr</div>
+      <div style="background-color: lightblue; height: 200px">2fr</div>
+      <div style="background-color: lightpink; height: 200px">1fr</div>
+      <div style="background-color: lightblue; height: 200px">1fr</div>
+      <div style="background-color: lightpink; height: 200px">2fr</div>
+    </div>
+    <div class="grids">
+      <div class="box" style="height: 200px">hey</div>
+      <div class="box" style="height: 200px">hey</div>
+      <div class="box" style="height: 200px">hey</div>
+      <div class="box" style="height: 200px">hey</div>
+      <div class="box" style="height: 200px">hey</div>
+      <div class="box" style="height: 200px">hey</div>
+      <div class="box" style="height: 200px">hey</div>
+      <div class="box" style="height: 200px">hey</div>
+      <div class="box" style="height: 200px">hey</div>
+      <div class="box" style="height: 200px">hey</div>
+      <div class="box" style="height: 200px">hey</div>
+      <div class="box" style="height: 200px">hey</div>
+    </div>
 
-         }
-         .box{
-            background-color: aqua;
-         }
-     </style>
+    <div id="d1"></div>
+    <style>
+      .grids {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        text-align: center;
+      }
+      .box {
+        background-color: aqua;
+      }
 
-</body>
+      #d1 {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border: solid 5px black;
+        border-radius: 100px;
+        transition: all 1s;
+      }
+
+      #d1:hover {
+        height: 10px;
+        width: 500px;
+        border-radius: 10px;
+        border-color: rgb(52, 27, 128);
+        border-width: 2px;
+      }
+    </style>
+  </body>
 </html>

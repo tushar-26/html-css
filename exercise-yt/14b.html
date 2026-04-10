@@ -1,64 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body style=" height: 3000px;">
-        <div class="rightside">right sidebar</div>
-          <div class="overlay">
-             <div class="model">
-            <div class="title">Model Title</div>
-            <div class="content">This is a model</div>
-            
-                <button>
-                    close
-                </button>
-            </div>
-        </div>
+  <head></head>
+  <body style="height: 3000px">
+    <div class="rightside">right sidebar</div>
+    <div class="overlay">
+      <div class="model">
+        <div class="title">Model Title</div>
+        <div class="content">This is a model</div>
 
+        <button
+          onclick="
+        
+       const btn =  document.querySelector('button');
+        
+       setTimeout(()=>{
+        btn.remove();
+       },2000)
+        "
+        >
+          close
+        </button>
+      </div>
+    </div>
 
-        <style>
-            .rightside{
-               background-color: green;
-               color: white;
-               position: fixed;
-               right: 0;
-               top: 0;
-               bottom: 0;
-               width: 100px;
-
-            }
-            .overlay{
-                background-color: rgba(0, 0, 0, 0.5);
-                position: fixed;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 28px;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-
-            }
-            .model{
-                background-color: white;
-                width: 300px;
-                padding-top: 15px;
-                padding-bottom: 15px;
-                padding-left: 15px;
-                padding-right: 15px;
-                border-radius: 5px;
-            }
-            .title{
-                font-family: arial;
-                font-weight: bold;
-                font-size: 24px;
-                margin-bottom: 12px;
-            }
-            .content{
-                font-family: arial;
-                padding-bottom: 12px;
-            }
-        </style>
-    </body>
-
+    <style>
+      .rightside {
+        background-color: green;
+        color: white;
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100px;
+      }
+      .overlay {
+        background-color: rgba(176, 54, 54, 0.5);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 28px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .model {
+        background-color: white;
+        width: 300px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+      }
+      .title {
+        font-family: arial;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 12px;
+      }
+      .content {
+        font-family: arial;
+        padding-bottom: 12px;
+      }
+      .model button {
+        background-color: red;
+        border: double 4px black;
+        color: white;
+        padding: 5px 10px;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 600;
+        font-style: oblique;
+        font-size: larger;
+        box-shadow: 0 0 10px black;
+        transition: all 1s;
+      }
+      .model button:hover {
+        color: aquamarine;
+      }
+    </style>
+  </body>
 </html>

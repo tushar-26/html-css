@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,4 +18,53 @@
         }
     </style>
 </body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        height: 120px;
+        width: 300px;
+        padding: 10px 15px;
+        display: inline-block;
+        background-color: rgb(65, 61, 61);
+        border: solid 7px red;
+        border-radius: 5px;
+      }
+      .container h2 {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 0;
+      }
+      .container input {
+        height: 30px;
+        width: 300px;
+        margin-top: 4px;
+        border: solid white 2px;
+        background-color: rgb(65, 61, 61);
+        border-radius: 10px;
+        text-align: start;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Password Strength Checker</h2>
+      <input type="text" placeholder="enter..." />
+    </div>
+  </body>
 </html>
